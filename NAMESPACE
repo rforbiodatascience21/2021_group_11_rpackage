@@ -2,3 +2,4 @@
 
 export(hello)
 export(random_dna)
+export(random_rna)
