@@ -1,8 +1,8 @@
-Package: lab08aSimpleRpackage
+Package: 2021_group_11_rpackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simple package
 Version: 0.1.0
-Author: Who wrote it
+Author: Group 11
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
