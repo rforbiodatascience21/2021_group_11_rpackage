@@ -24,5 +24,3 @@ dna_codons_to_aa <- function(codons){
   return(aa)
 }
 
-roxygen2::roxygenise()
-
