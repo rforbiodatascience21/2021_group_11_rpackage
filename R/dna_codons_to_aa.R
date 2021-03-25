@@ -10,6 +10,7 @@ dna_codons_to_aa <- function(codons){
                       "CTT" = "L", "CCT" = "P", "CAT" = "H", "CGT" = "R",
                       "CTC" = "L", "CCC" = "P", "CAC" = "H", "CGC" = "R",
                       "CTA" = "L", "CCA" = "P", "CAA" = "Q", "CGA" = "R",
+                      "CTA" = "L", "CCA" = "P", "CAA" = "Q", "CGA" = "R",
                       "CTG" = "L", "CCG" = "P", "CAG" = "Q", "CGG" = "R",
                       "ATT" = "I", "ACT" = "T", "AAT" = "N", "AGT" = "S",
                       "ATC" = "I", "ACC" = "T", "AAC" = "N", "AGC" = "S",
@@ -22,4 +23,6 @@ dna_codons_to_aa <- function(codons){
   aa <- paste0(std_code_table[codons], collapse = "")
   return(aa)
 }
+
+roxygen2::roxygenise()
 
