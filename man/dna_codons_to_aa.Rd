@@ -4,11 +4,11 @@
 \alias{dna_codons_to_aa}
 \title{Translates 3-character codon to 1-character amino acid}
 \usage{
-  dna_codons_to_aa(codons)
+dna_codons_to_aa(codons)
 }
 \arguments{
-  \item{codons}{input DNA codon}
+\item{codons}{input DNA codon}
 }
 \description{
-  Translates 3-character codon to 1-character amino acid
+Translates 3-character codon to 1-character amino acid
 }
