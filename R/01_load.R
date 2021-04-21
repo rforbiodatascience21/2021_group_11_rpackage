@@ -11,8 +11,9 @@ source(file = "R/99_project_functions.R")
 
 
 # Load data ---------------------------------------------------------------
-my_data_raw <- read_tsv(file = "data/_raw/my_raw_data.tsv")
+my_data_raw_ENV <- read_csv(file = "data/_raw/ENV_pitlatrine.csv")
 
+my_data_raw_SPE <- read_csv(file = "data/_raw/SPE_pitlatrine.csv")
 
 # Wrangle data ------------------------------------------------------------
 my_data <- my_data_raw # %>% ...
